@@ -1,0 +1,46 @@
+{
+  "name": "csmp-ias",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "seed": "tsx scripts/seed-posts.ts",
+    "migrate-assets": "tsx scripts/migrate-cloudinary.ts"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.6.1",
+    "@supabase/ssr": "0.12.3",
+    "@supabase/supabase-js": "2.110.7",
+    "@tiptap/extension-image": "^2.27.2",
+    "@tiptap/extension-link": "^2.27.2",
+    "@tiptap/extension-placeholder": "^2.27.2",
+    "@tiptap/extension-table": "^2.27.3",
+    "@tiptap/extension-table-cell": "^2.27.3",
+    "@tiptap/extension-table-header": "^2.27.3",
+    "@tiptap/extension-table-row": "^2.27.3",
+    "@tiptap/pm": "^2.27.2",
+    "@tiptap/react": "^2.27.2",
+    "@tiptap/starter-kit": "^2.27.2",
+    "cloudinary": "2.5.1",
+    "htmlparser2": "^12.0.0",
+    "next": "16.2.10",
+    "next-cloudinary": "6.16.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.10.5",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "eslint": "9.18.0",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3"
+  }
+}
